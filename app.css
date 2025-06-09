@@ -4,15 +4,13 @@ body {
 }
 
 .firstSide {
-    margin: 50px
+    margin: 20px;
 }
-
 
 .allPage {
     display: flex;
     flex-direction: column;
 }
-
 
 h1 {
     color: white;
@@ -54,7 +52,7 @@ h2 {
 
 .secondSide {
     background-color: rgb(228, 232, 228);
-    margin: 10px 50px 50px 50px;
+    margin: 10px 10px 50px 10px;
     padding: 25px;
     box-shadow: 5px 20px 30px black;
 }
@@ -122,8 +120,6 @@ h2 {
 }
 
 .secondSide {
- 
     margin: 50px 150px 50px 50px;
-
 }
   }
