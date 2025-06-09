@@ -1,0 +1,129 @@
+/* Page Holder */
+body {
+    background-color: rgb(99, 107, 91);
+}
+
+.firstSide {
+    margin: 50px
+}
+
+
+.allPage {
+    display: flex;
+    flex-direction: column;
+}
+
+
+h1 {
+    color: white;
+    font-size: 60px;
+    font-family: Caveat, 'Courier New', Courier, monospace;
+}
+h2 {
+    color: white;
+    margin-top: 50px;
+}
+
+.aboutMe p {
+    background-color: rgba(255, 255, 255, 0.466);
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.aboutMe a {
+    color: white;
+    text-decoration: none;
+}
+
+.aboutMe a:hover {
+    color: rgb(17, 121, 17);
+}
+
+.languages {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.fa-circle {
+    font-size: 20px;
+    padding: 0px 5px;
+}
+
+.secondSide {
+    background-color: rgb(228, 232, 228);
+    margin: 10px 50px 50px 50px;
+    padding: 25px;
+    box-shadow: 5px 20px 30px black;
+}
+
+.secondSide h2 {
+    color: rgb(53, 78, 51);
+}
+
+/* For Tablets View */
+  @media only screen and (min-width: 600px) {
+  
+    .col-s-1 { width: 8.33%; }
+    .col-s-2 { width: 16.66%; }
+    .col-s-3 { width: 25%; }
+    .col-s-4 { width: 33.33%; }
+    .col-s-5 { width: 41.66%; }
+    .col-s-6 { width: 50%; }
+    .col-s-7 { width: 58.33%; }
+    .col-s-8 { width: 66.66%; }
+    .col-s-9 { width: 75%; }
+    .col-s-10 { width: 83.33%; }
+    .col-s-11 { width: 91.66%; }
+    .col-s-12 { width: 100%; }
+
+    .allPage {
+    display: flex;
+    flex-direction: row;
+}
+
+.firstSide {
+    margin-left: 50px
+}
+
+.secondSide {
+
+    margin: 0px 50px 50px 0px;
+
+}
+
+  }
+
+  /* For Desktop View */
+  @media only screen and (min-width: 768px) {
+      
+    .col-1 {  width: 8.33%; }
+    .col-2 { width: 16.66%; }
+    .col-3 { width: 25%; }
+    .col-4 { width: 33.33%; }
+    .col-5 { width: 41.66%; }
+    .col-6 { width: 50%; }
+    .col-7 { width: 58.33%; }
+    .col-8 { width: 66.66%; }
+    .col-9 { width: 75%; }
+    .col-10 { width: 83.33%; }
+    .col-11 { width: 91.66%; }
+    .col-12 { width: 100%; }
+
+    .allPage {
+    display: flex;
+    flex-direction: row;
+}
+
+.firstSide {
+    margin-left: 100px
+}
+
+.secondSide {
+ 
+    margin: 50px 150px 50px 50px;
+
+}
+  }
